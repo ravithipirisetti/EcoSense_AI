@@ -5,6 +5,15 @@ Headless AI Inference Server for Bird Sound Classification.
 Deployed on Render, serving REST API calls for Website, Raspberry Pi, Mobile & Desktop apps.
 """
 
+import os
+import sys
+from pathlib import Path
+
+# Ensure repository root is on sys.path
+BASE_DIR = Path(__file__).resolve().parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI

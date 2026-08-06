@@ -8,12 +8,8 @@ from pathlib import Path
 from typing import Union
 import numpy as np
 
-try:
-    from ai.yamnet_extractor import extract_yamnet_embedding
-    from ai.preprocess import preprocess_audio
-except ImportError:
-    from yamnet_extractor import extract_yamnet_embedding
-    from preprocess import preprocess_audio
+from ai.yamnet_extractor import extract_yamnet_embedding
+from ai.preprocess import preprocess_audio
 
 
 def extract_features(audio_file_path: Union[str, Path], target_dim: int = 1024) -> np.ndarray:

@@ -15,34 +15,19 @@ from typing import Any, Dict, List, Optional, Union
 import numpy as np
 import tensorflow as tf
 
-try:
-    from ai.species_mapping import parse_label
-    from ai.yamnet_preprocessor import extract_features
-    from utils.config import (
-        CONFIDENCE_THRESHOLD,
-        ENCODER_PATH,
-        FALLBACK_ENCODER_PATH,
-        MODEL_NAME,
-        MODEL_PATH,
-        MODEL_VERSION,
-        SERVER_VERSION,
-    )
-    from utils.logger import log_server_info
-    from utils.response import format_success_response, get_current_timestamp
-except ImportError:
-    from species_mapping import parse_label
-    from yamnet_preprocessor import extract_features
-    from utils.config import (
-        CONFIDENCE_THRESHOLD,
-        ENCODER_PATH,
-        FALLBACK_ENCODER_PATH,
-        MODEL_NAME,
-        MODEL_PATH,
-        MODEL_VERSION,
-        SERVER_VERSION,
-    )
-    from utils.logger import log_server_info
-    from utils.response import format_success_response, get_current_timestamp
+from ai.species_mapping import parse_label
+from ai.yamnet_preprocessor import extract_features
+from utils.config import (
+    CONFIDENCE_THRESHOLD,
+    ENCODER_PATH,
+    FALLBACK_ENCODER_PATH,
+    MODEL_NAME,
+    MODEL_PATH,
+    MODEL_VERSION,
+    SERVER_VERSION,
+)
+from utils.logger import log_server_info
+from utils.response import format_success_response, get_current_timestamp
 
 UNKNOWN_BIRD_LABEL: str = "Unknown Bird"
 UNKNOWN_SCIENTIFIC_NAME: str = "Unknown"
