@@ -1,0 +1,78 @@
+=== EcoSense AI — YAMNet Classification Report ===
+
+                                  precision    recall  f1-score   support
+
+      S10_Eurasian Collared Dove       1.00      1.00      1.00         5
+        S11_Rose-ringed Parakeet       0.33      0.67      0.44         3
+        S12_Alexandrine Parakeet       0.40      0.29      0.33         7
+        S13_Plum-headed Parakeet       0.67      0.33      0.44         6
+                  S14_Asian Koel       0.60      0.60      0.60         5
+              S15_Greater Coucal       0.83      1.00      0.91         5
+               S16_Indian Roller       0.00      0.00      0.00         1
+   S17_White-throated Kingfisher       1.00      0.40      0.57         5
+           S18_Common Kingfisher       1.00      0.75      0.86         4
+             S19_Pied Kingfisher       0.50      1.00      0.67         1
+                S1_House Sparrow       0.33      0.25      0.29         4
+     S20_Stork-billed Kingfisher       0.75      1.00      0.86         3
+       S21_Asian Green Bee-eater       0.00      0.00      0.00         2
+       S22_Blue-tailed Bee-eater       1.00      0.75      0.86         4
+   S23_Chestnut-headed Bee-eater       0.25      0.50      0.33         2
+                S24_Black Drongo       0.44      0.67      0.53         6
+S25_Greater Racket-tailed Drongo       0.67      0.80      0.73         5
+        S26_White-bellied Drongo       0.50      0.50      0.50         2
+           S27_Red-vented Bulbul       0.25      0.50      0.33         2
+        S28_Red-whiskered Bulbul       0.25      0.25      0.25         4
+         S29_White-browed Bulbul       1.00      0.50      0.67         4
+                   S2_House Crow       0.75      1.00      0.86         3
+                 S30_Common Iora       0.20      0.20      0.20         5
+                S31_Indian Robin       0.40      0.33      0.36         6
+  S33_Indian Paradise Flycatcher       0.40      0.40      0.40         5
+           S35_Common Tailorbird       0.67      0.67      0.67         3
+                 S36_Ashy Prinia       1.00      0.33      0.50         3
+                S37_Plain Prinia       0.50      0.67      0.57         3
+               S38_Jungle Prinia       0.67      0.50      0.57         4
+              S39_Jungle Babbler       0.50      0.25      0.33         4
+           S3_Indian Jungle Crow       1.00      0.33      0.50         3
+       S40_Yellow-billed Babbler       0.25      0.50      0.33         2
+              S41_Common Babbler       0.33      0.17      0.22         6
+              S43_Purple Sunbird       0.00      0.00      0.00         5
+       S44_Purple-rumped Sunbird       0.17      0.50      0.25         2
+             S45_Loten's Sunbird       0.40      0.67      0.50         3
+                 S46_Baya Weaver       1.00      0.50      0.67         2
+           S47_Indian Silverbill       0.33      0.50      0.40         2
+        S48_Scaly-breasted Munia       1.00      1.00      1.00         1
+          S49_White-rumped Munia       0.50      1.00      0.67         1
+                  S4_Common Myna       0.00      0.00      0.00         0
+                S50_Red Avadavat       0.50      1.00      0.67         1
+                  S51_Black Kite       0.00      0.00      0.00         0
+               S52_Brahminy Kite       0.50      1.00      0.67         1
+                      S53_Shikra       0.00      0.00      0.00         0
+       S54_Crested Serpent Eagle       0.00      0.00      0.00         1
+           S55_Black-winged Kite       0.00      0.00      0.00         1
+          S56_White-eyed Buzzard       1.00      1.00      1.00         1
+              S57_Common Kestrel       1.00      1.00      1.00         1
+            S58_Peregrine Falcon       0.00      0.00      0.00         0
+               S59_Spotted Owlet       0.00      0.00      0.00         0
+                  S5_Jungle Myna       0.00      0.00      0.00         1
+            S60_Indian Eagle-Owl       0.00      0.00      0.00         1
+            S61_Eastern Barn Owl       0.00      0.00      0.00         0
+        S63_Indian Grey Hornbill       0.00      0.00      0.00         0
+             S64_Eurasian Hoopoe       0.00      0.00      0.00         1
+         S65_Brown-headed Barbet       1.00      1.00      1.00         1
+        S66_White-cheeked Barbet       0.00      0.00      0.00         0
+          S67_Coppersmith Barbet       0.00      0.00      0.00         0
+      S68_Black-rumped Flameback       0.50      1.00      0.67         1
+      S69_White-naped Woodpecker       0.00      0.00      0.00         0
+  S70_Streak-throated Woodpecker       0.00      0.00      0.00         0
+                S71_Indian Pitta       0.50      1.00      0.67         1
+             S72_Indian Nightjar       0.00      0.00      0.00         0
+                S73_Little Swift       1.00      1.00      1.00         1
+              S74_Red Junglefowl       0.00      0.00      0.00         0
+              S75_Indian Peafowl       0.50      1.00      0.67         1
+                    S7_Rock Dove       0.50      1.00      0.67         1
+                 S8_Spotted Dove       1.00      1.00      1.00         1
+                S9_Laughing Dove       1.00      1.00      1.00         1
+
+                        accuracy                           0.53       160
+                       macro avg       0.44      0.48      0.43       160
+                    weighted avg       0.56      0.53      0.51       160

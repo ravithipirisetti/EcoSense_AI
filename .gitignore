@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+xc_api_key*.txt
+
+# Datasets & Raw Files (Not needed for REST Inference Server deployment)
+datasets/
+raw_audio/
+raw_images/
+
+# Logs
+logs/*.log
+*.log
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary Files
+tmp/
+temp/
+scratch/
