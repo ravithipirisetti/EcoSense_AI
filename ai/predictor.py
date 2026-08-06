@@ -103,6 +103,13 @@ class AudioPredictor:
                     f"LabelEncoder classes ({num_encoder_classes}). Model and Encoder out of sync!"
                 )
 
+            # Pre-warm YAMNet from TF Hub during startup
+            try:
+                from ai.yamnet_extractor import get_yamnet
+                get_yamnet()
+            except Exception as ex:
+                pass
+
             self._initialized = True
             log_server_info(f"Audio Predictor initialized successfully ({num_encoder_classes} species classes).")
         except Exception as err:
