@@ -19,9 +19,11 @@ datasets/
 raw_audio/
 raw_images/
 
-# Logs
-logs/*.log
+# Logs & Cache
+logs/
 *.log
+*.npy
+
 
 # IDE & Editor
 .idea/
