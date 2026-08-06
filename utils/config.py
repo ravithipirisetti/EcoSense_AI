@@ -41,7 +41,7 @@ API_KEY: str = os.getenv("API_KEY", "").strip()
 
 ALLOWED_ORIGINS_RAW: str = os.getenv(
     "ALLOWED_ORIGINS",
-    "https://ecosense.onrender.com,https://ecosense-ai.web.app,http://localhost:3000,http://localhost:8000,http://127.0.0.1:8000",
+    "https://ecosense-ai-server.onrender.com,https://ecosense.onrender.com,https://ecosense-ai.web.app,http://localhost:3000,http://localhost:8000,http://127.0.0.1:8000,*",
 ).strip()
 
 ALLOWED_ORIGINS: List[str] = [
