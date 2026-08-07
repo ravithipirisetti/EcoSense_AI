@@ -35,3 +35,4 @@ logs/
 tmp/
 temp/
 scratch/
+cloudflared.exe

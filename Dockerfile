@@ -18,8 +18,8 @@ COPY . .
 # Create logs directory
 RUN mkdir -p logs
 
-# Expose default port
-EXPOSE 8080
+# Expose Hugging Face Space port
+EXPOSE 7860
 
-# Start Uvicorn REST API server reading $PORT dynamically
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}"]
+# Start Uvicorn REST API server
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
