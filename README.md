@@ -3,9 +3,11 @@ title: EcoSense AI Server
 emoji: 🦅
 colorFrom: green
 colorTo: blue
-sdk: docker
-app_port: 7860
-short_description: Production REST AI Inference Server for Bird Sound Classification
+sdk: gradio
+sdk_version: 4.26.0
+app_file: app.py
+pinned: false
+short_description: Production AI Server for Bird Sound Classification
 ---
 
 # EcoSense AI Server
