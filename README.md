@@ -1,3 +1,13 @@
+---
+title: EcoSense AI Server
+emoji: 🦅
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+short_description: Production REST AI Inference Server for Bird Sound Classification
+---
+
 # EcoSense AI Server
 
 Official Production AI Inference Server for Bird Species Sound Classification.  
